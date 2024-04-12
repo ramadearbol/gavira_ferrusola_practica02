@@ -1,0 +1,82 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+.cabecera :nth-child(1) {
+        width: 150px;
+    }
+.cabecera {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+        padding-left: 100px;
+        width: 60%;
+    }
+.menu ul {
+        gap: 20px;
+        display: flex;
+    }
+.menu ul li {
+        display: inline-block;
+        color: gray;
+        font-weight: bold;
+        font-size: larger;
+    }
+.menu ul li:nth-child(1) {
+        color: lightskyblue;
+    }
+.seccion_inicio {
+        background-color: lightgray;
+    }
+.logo {
+        display: flex;
+        gap: 15px;
+        padding-bottom: 100px;
+    }
+.logo p {
+        color: lightskyblue;
+        align-self: flex-end;
+        font-size: larger;
+    }
+.logo p strong {
+        color: gray;
+    }
+.inicio {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+.inicio h1 {
+        color: gray;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 70px;
+    }
+.inicio h2 {
+        color: gray;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: xx-large;
+    }
+.inicio h2 span {
+        color: lightskyblue;
+    }
+.botones {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        display: flex;
+        gap: 50px;
+    }
+.botones p {
+        color: white;
+    }
+.dudas {
+        background-color: lightskyblue;
+        border-radius: 10px;
+        height: 50px;
+        width: 150px;
+    }
+.info {
+        background-color: lightskyblue;
+        border-radius: 10px;
+        height: 50px;
+        width: 150px;
+    }
