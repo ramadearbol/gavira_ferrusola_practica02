@@ -98,6 +98,7 @@ body {
     gap: 30px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 413,5px 413,5px 413,5px 413,5px;
+    padding-right: 50px;
 }
 
 .contenedor_1 {
